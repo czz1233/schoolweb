@@ -1,0 +1,228 @@
+!SESSION 2020-06-29 10:08:13.721 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication C:\Users\123\Desktop\imd.ccnu.edu.cn\_sitegray\_sitegray_d.css
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication C:\Users\123\Desktop\imd.ccnu.edu.cn\_sitegray\_sitegray_d.css
+
+!ENTRY org.eclipse.ui 2 0 2020-06-29 10:08:14.507
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-29 10:08:14.507
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:14.710
+!MESSAGE ********HBuilder正常启动：preStartup********
+
+!ENTRY com.aptana.scripting 4 0 2020-06-29 10:08:16.689
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2020-06-29 10:08:16.697
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:20.001
+!MESSAGE ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:20.007
+!MESSAGE check mode
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:20.132
+!MESSAGE workspace : file:\C:\Users\123\Desktop\imd.ccnu.edu.cn\_sitegray
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:21.150
+!MESSAGE ********HBuilder正常启动：postStartup********
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2020-06-29 10:08:21.269
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 9.1.19.201808300739
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:21.846
+!MESSAGE (Build null) [ERROR]  ADB PID:::17144
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:22.123
+!MESSAGE (Build null) [ERROR]  ===Caption  ExecutablePath
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:22.130
+!MESSAGE (Build null) [ERROR]  ===adb.exe  D:\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:22.136
+!MESSAGE (Build null) [ERROR]  exe===adb.exe   path===d:\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:22.141
+!MESSAGE (Build null) [ERROR]  ADB Path===d:\hbuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2020-06-29 10:08:22.327
+!MESSAGE D:\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY com.aptana.editor.css 4 0 2020-06-29 10:08:22.347
+!MESSAGE (Build null) [ERROR]  开始清理css错误marker...
+
+!ENTRY com.aptana.editor.css 4 0 2020-06-29 10:08:22.358
+!MESSAGE (Build null) [ERROR]  清理css错误marker结束
+
+!ENTRY com.pandora.index.store 4 0 2020-06-29 10:08:22.515
+!MESSAGE (Build null) [ERROR]  Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+!STACK 0
+java.rmi.server.ExportException: Port already in use: 56789; nested exception is: 
+	java.net.BindException: Address already in use: JVM_Bind
+	at sun.rmi.transport.tcp.TCPTransport.listen(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(Unknown Source)
+	at sun.rmi.transport.LiveRef.exportObject(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.exportObject(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.setup(Unknown Source)
+	at sun.rmi.registry.RegistryImpl.<init>(Unknown Source)
+	at java.rmi.registry.LocateRegistry.createRegistry(Unknown Source)
+	at com.pandora.index.store.IndexStoreStartup.run(IndexStoreStartup.java:28)
+	at com.pandora.index.store.IndexStoreStartup.earlyStartup(IndexStoreStartup.java:18)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Native Method)
+	at java.net.TwoStacksPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.TwoStacksPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(Unknown Source)
+	... 15 more
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.601
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.666
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.699
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:72)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:109)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$69.run(Workbench.java:2726)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.730
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.753
+!MESSAGE (Build null) [ERROR]  path1======C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.766
+!MESSAGE (Build null) [ERROR]  path2======C:\\Program Files (x86)\\Common Files\\Apple\\Apple Application Support\\CoreFoundation.dll
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.837
+!MESSAGE (Build null) [ERROR]  loadSystemPath_05 error
+!STACK 0
+java.lang.UnsatisfiedLinkError: C:\Program Files (x86)\Common Files\Apple\Apple Application Support\CoreFoundation.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadSystemPath(LibraryFinder.java:203)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.foundCoreLibrary(LibraryFinder.java:217)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getCFLibrary(LibraryFinder.java:144)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:128)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:77)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:799)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:22.902
+!MESSAGE (Build null) [ERROR]  ADB PID:::17144
+
+!ENTRY com.pandora.launcher.core 4 0 2020-06-29 10:08:22.972
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.stats.core 1 0 2020-06-29 10:08:23.004
+!MESSAGE 
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2020-06-29 10:08:23.070
+!MESSAGE D:\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:23.085
+!MESSAGE (Build null) [ERROR]  ADB Path===null
+
+!ENTRY com.pandora.core.utils 4 0 2020-06-29 10:08:23.315
+!MESSAGE (Build null) [ERROR]  Wmic Error:::没有可用实例。
+
+!ENTRY com.pandora.core.utils 4 0 2020-06-29 10:08:23.336
+!MESSAGE (Build null) [ERROR]  Wmic Error:::
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:23.413
+!MESSAGE (Build null) [ERROR]  ADB Path===D:\HBuilder\tools\adbs\adb.exe
+
+!ENTRY com.aptana.parsing 4 0 2020-06-29 10:08:23.605
+!MESSAGE (Build null) [ERROR]  无效的属性类型“.webkit.SearchBoxImpl@4135441”属性“searchBoxJavaBridge_”
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2020-06-29 10:08:24.222
+!MESSAGE (Build null) [ERROR]  最新版本: 9.1.29.201811231920
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2020-06-29 10:08:24.251
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 9.1.29.201811231920
+
+!ENTRY com.aptana.scripting 4 0 2020-06-29 10:08:24.346
+!MESSAGE (Build null) [ERROR]  loadBundles异常
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:26.247
+!MESSAGE (Build null) [ERROR]  ADB Path===D:\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:28.111
+!MESSAGE ********HBuilder正常关闭：preShutdown********
+
+!ENTRY com.aptana.commandline.launcher 4 0 2020-06-29 10:08:28.118
+!MESSAGE socket closed
+!STACK 0
+java.net.SocketException: socket closed
+	at java.net.TwoStacksPlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:129)
+
+!ENTRY com.aptana.rcp 4 0 2020-06-29 10:08:28.328
+!MESSAGE ********HBuilder正常关闭：postShutdown********
+
+!ENTRY com.pandora.tools.android 4 0 2020-06-29 10:08:28.572
+!MESSAGE (Build null) [ERROR]  ADB Path===D:\HBuilder\tools\adbs\1.0.31\adb.exe
+
+!ENTRY com.aptana.rcp 1 0 2020-06-29 10:08:42.765
+!MESSAGE close CEF
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-29 10:08:44.216
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-29 10:08:44.223
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.pandora.pack.core.download.StartupDownloadPackage$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-06-29 10:08:44.229
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.AbstractWorkingSetManager$10
